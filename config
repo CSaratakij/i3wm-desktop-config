@@ -189,6 +189,10 @@ bindsym Print exec xfce4-screenshooter
 # Bind lock screen
 bindsym $mod+shift+F12 exec ~/Tools/Utils/lock.sh
 
+# Lock screen automatically after given time by xautolock
+exec xautolock -time 15 -locker ~/Tools/Utils/lock.sh
+
+
 # Lanuch xflux
 exec --no-startup-id xflux -l 13.9706, 100.6457 -k 4200 -nofork
 

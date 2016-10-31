@@ -5,3 +5,6 @@
 - FontAwesome
 - scrot
 - imagemagick
+- xautolock
+- xfce4-screenshooter
+- xflux
