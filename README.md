@@ -8,3 +8,9 @@
 - xautolock
 - xfce4-screenshooter
 - xflux
+- dunst
+
+# Desktop themes
+- paper-gtk-theme
+- paper-icon-theme
+- paper-cursor-theme

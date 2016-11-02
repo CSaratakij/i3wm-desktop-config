@@ -196,3 +196,5 @@ exec xautolock -time 15 -locker ~/Tools/Utils/lock.sh
 # Lanuch xflux
 exec --no-startup-id xflux -l 13.9706, 100.6457 -k 4200 -nofork
 
+# Start dunst
+exec --no-startup-id dunst -config ~/.dunstrc
