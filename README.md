@@ -1,3 +1,5 @@
+![i3wm-desktop-config](screenshots/1.png)
+
 # Note
 - Change dir "xlock" to ".xlock" -> move to home dir (~)
 - Change "cdmrc" to ".cdmrc" -> (~)
