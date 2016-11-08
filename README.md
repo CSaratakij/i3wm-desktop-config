@@ -1,7 +1,8 @@
 # Note
-- Change dir "xlock" to ".xlock" -> move dir to your home dir
-- Change "cdmrc" to ".cdmrc" -> move file to your home dir
-- Change "dunstrc" to ".dunstrc" -> move file to your home dir
+- Change dir "xlock" to ".xlock" -> move to home dir (~)
+- Change "cdmrc" to ".cdmrc" -> (~)
+- Change "dunstrc" to ".dunstrc" -> (~)
+- Change "tmux.conf" to ".tmux.conf" -> (~)
 
 # Dependencies
 - FontAwesome
@@ -11,6 +12,7 @@
 - xfce4-screenshooter
 - xflux
 - dunst
+- oh-my-zsh
 
 # Desktop themes
 - paper-gtk-theme
@@ -19,3 +21,10 @@
 
 # Display Manager
 - cdm
+
+# Shell
+- zsh
+
+# Oh my zsh theme
+- geometry
+
