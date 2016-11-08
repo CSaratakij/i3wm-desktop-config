@@ -6,6 +6,7 @@
 - Change "Xdefaults" to ".Xdefaults" -> (~)
 - Change "xinitrc" to ".xinitrc" -> (~)
 - Change "zshrc" to ".zshrc" -> (~)
+- Copy "geometry.zsh-theme" to ("~/.oh-my-zsh/custom/themes/")
 
 # Dependencies
 - X11
@@ -30,6 +31,6 @@
 # Shell
 - zsh
 
-# Oh my zsh theme
+# Zsh theme
 - geometry
 
