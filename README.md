@@ -21,6 +21,8 @@
 - dunst
 - oh-my-zsh
 - fcitx
+- gtk2
+- gtk3
 
 # Desktop themes
 - paper-gtk-theme
