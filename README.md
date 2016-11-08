@@ -5,13 +5,16 @@
 - Change "tmux.conf" to ".tmux.conf" -> (~)
 - Change "Xdefaults" to ".Xdefaults" -> (~)
 - Change "xinitrc" to ".xinitrc" -> (~)
+- Change "zshrc" to ".zshrc" -> (~)
 
 # Dependencies
+- X11
 - FontAwesome
 - scrot
 - imagemagick
 - xautolock
 - xfce4-screenshooter
+- xfce4-terminal
 - xflux
 - dunst
 - oh-my-zsh
