@@ -10,31 +10,31 @@
 
 # Dependencies
 - X11
-- FontAwesome
-- powerline (fonts)
+- [FontAwesome](https://github.com/FortAwesome/Font-Awesome)
+- [powerline (fonts)](https://github.com/powerline/fonts)
 - scrot
 - imagemagick
 - xautolock
 - xfce4-screenshooter
 - xfce4-terminal
-- xflux
+- [xflux](https://justgetflux.com/)
 - dunst
-- oh-my-zsh
+- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 - fcitx
 - gtk2
 - gtk3
 
 # Desktop themes
-- paper-gtk-theme
-- paper-icon-theme
-- paper-cursor-theme
+- [paper-gtk-theme](https://github.com/snwh/paper-gtk-theme)
+- [paper-icon-theme](https://github.com/snwh/paper-icon-theme)
+- [paper-cursor-theme](https://github.com/snwh/paper-icon-theme)
 
 # Display Manager
-- cdm
+- [cdm](https://github.com/ghost1227/cdm)
 
 # Shell
 - zsh
 
 # Zsh theme
-- geometry
+- [geometry](https://github.com/frmendes/geometry)
 
