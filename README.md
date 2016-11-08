@@ -1,6 +1,7 @@
 # Note
 - Change dir "xlock" to ".xlock" -> move dir to your home dir
 - Change "cdmrc" to ".cdmrc" -> move file to your home dir
+- Change "dunstrc" to ".dunstrc" -> move file to your home dir
 
 # Dependencies
 - FontAwesome

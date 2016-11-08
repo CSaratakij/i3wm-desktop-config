@@ -16,7 +16,7 @@
 # )
 binlist=(
     'startx'
-    '/bin/bash --login'
+    '/bin/zsh --login'
 )
 
 
