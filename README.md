@@ -4,6 +4,7 @@
 - Change "dunstrc" to ".dunstrc" -> (~)
 - Change "tmux.conf" to ".tmux.conf" -> (~)
 - Change "Xdefaults" to ".Xdefaults" -> (~)
+- Change "xinitrc" to ".xinitrc" -> (~)
 
 # Dependencies
 - FontAwesome
