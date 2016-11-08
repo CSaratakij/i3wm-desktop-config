@@ -1,0 +1,4 @@
+XTerm*termName: xterm-256color
+XTerm*foreground: white
+XTerm*background: black
+XTerm*locale: true

@@ -3,6 +3,7 @@
 - Change "cdmrc" to ".cdmrc" -> (~)
 - Change "dunstrc" to ".dunstrc" -> (~)
 - Change "tmux.conf" to ".tmux.conf" -> (~)
+- Change "Xdefaults" to ".Xdefaults" -> (~)
 
 # Dependencies
 - FontAwesome
