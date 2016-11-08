@@ -11,6 +11,7 @@
 # Dependencies
 - X11
 - FontAwesome
+- powerline (fonts)
 - scrot
 - imagemagick
 - xautolock
@@ -19,6 +20,7 @@
 - xflux
 - dunst
 - oh-my-zsh
+- fcitx
 
 # Desktop themes
 - paper-gtk-theme
