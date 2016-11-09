@@ -25,6 +25,7 @@
 - fcitx
 - gtk2
 - gtk3
+- [ag](https://github.com/ggreer/the_silver_searcher)
 
 # Desktop themes
 - [paper-gtk-theme](https://github.com/snwh/paper-gtk-theme)
