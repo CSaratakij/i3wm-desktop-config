@@ -18,7 +18,7 @@
 - imagemagick
 - xautolock
 - xfce4-screenshooter
-- xfce4-terminal
+- lxterminal
 - [xflux](https://justgetflux.com/)
 - dunst
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
