@@ -8,6 +8,7 @@
 - Change "Xdefaults" to ".Xdefaults" -> (~)
 - Change "xinitrc" to ".xinitrc" -> (~)
 - Change "zshrc" to ".zshrc" -> (~)
+- Change "vimrc" to ".vimrc" -> (~)
 - Copy "geometry.zsh-theme" to ("~/.oh-my-zsh/custom/themes/")
 
 # Dependencies
