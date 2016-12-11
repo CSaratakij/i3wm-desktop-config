@@ -1,0 +1,16 @@
+{
+	"mode.normal.history_back": "J",
+	"mode.normal.history_forward": "K",
+	"mode.normal.scroll_page_down": "<c-f>",
+	"mode.normal.scroll_page_up": "<c-b>",
+	"mode.normal.scroll_half_page_down": "zz",
+	"mode.normal.scroll_half_page_up": "zt",
+	"mode.normal.tab_select_previous": "H    gT",
+	"mode.normal.tab_select_next": "L    gt",
+	"mode.normal.esc": "<force><c-[>",
+	"mode.caret.exit": "<c-[>",
+	"mode.hints.exit": "<c-[>",
+	"mode.ignore.exit": "<c-[>",
+	"mode.find.exit": "<c-[>    <enter>",
+	"mode.marks.exit": "<c-[> "
+}

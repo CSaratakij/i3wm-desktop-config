@@ -9,6 +9,7 @@
 - Change "xinitrc" to ".xinitrc" -> (~)
 - Change "zshrc" to ".zshrc" -> (~)
 - Change "vimrc" to ".vimrc" -> (~)
+- Change "vimfx" to ".vimfx" -> (~)
 - Copy "geometry.zsh-theme" to ("~/.oh-my-zsh/custom/themes/")
 
 # Dependencies
@@ -28,6 +29,7 @@
 - gtk3
 - [ag](https://github.com/ggreer/the_silver_searcher)
 - xdg-user-dirs
+- vimfx(https://github.com/akhodakivskiy/VimFx)
 
 # Desktop themes
 - [paper-gtk-theme](https://github.com/snwh/paper-gtk-theme)
