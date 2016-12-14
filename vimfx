@@ -1,8 +1,8 @@
 {
 	"mode.normal.history_back": "J",
 	"mode.normal.history_forward": "K",
-	"mode.normal.scroll_page_down": "<c-d>",
-	"mode.normal.scroll_page_up": "<c-u>",
+	"mode.normal.scroll_page_down": "<c-f>",
+	"mode.normal.scroll_page_up": "<c-b>",
 	"mode.normal.scroll_half_page_down": "zz",
 	"mode.normal.scroll_half_page_up": "zt",
 	"mode.normal.tab_select_previous": "H    gT",
