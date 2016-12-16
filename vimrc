@@ -3,4 +3,3 @@ set tabstop=4
 set statusline=%t
 set relativenumber
 set autoindent
-set hlsearch
