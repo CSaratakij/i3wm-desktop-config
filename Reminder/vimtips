@@ -17,11 +17,12 @@ You could also use xclip, xcopy, or xsel to copy text to the clipboard; see Defi
 Copy/Paste workflow tips :)
 
 In Arch linux + this config case -> 
-- use gvim package (It include clipboard support)
+- use gvim package (It include clipboard support) (or neovim)
 - use xclip package. 
 
 For vim to x clipboard (Copy text from vim to x clipboard)
-- use visual mode + : + cz to copy text to x clipboard. (It's look like this -> :'<,'>cz)
+- use visual mode 
+- type "*y to copy to x clipboard
 - fcitx -> ^C+; to paste in app that support multiple line (which something that st is not)
 
 For x clipboard to vim (Paste to vim)
