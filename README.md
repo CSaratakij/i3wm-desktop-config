@@ -11,6 +11,7 @@
 - Change "vimrc" to ".vimrc" -> (~)
 - Change "vimfx" to ".vimfx" -> (~)
 - Copy "geometry.zsh-theme" to ("~/.oh-my-zsh/custom/themes/")
+- Copy "init.vim" to ("~/.config/nvim/")
 
 # Dependencies
 - X11
@@ -31,6 +32,9 @@
 - [ag](https://github.com/ggreer/the_silver_searcher)
 - xdg-user-dirs
 - vimfx(https://github.com/akhodakivskiy/VimFx)
+- vim
+- vim-plug
+- neovim
 
 # Desktop themes
 - [paper-gtk-theme](https://github.com/snwh/paper-gtk-theme)
