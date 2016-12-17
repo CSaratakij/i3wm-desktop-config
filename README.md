@@ -33,7 +33,7 @@
 - xdg-user-dirs
 - vimfx(https://github.com/akhodakivskiy/VimFx)
 - vim
-- vim-plug
+- vim-plug(https://github.com/junegunn/vim-plug)
 - neovim
 
 # Desktop themes
