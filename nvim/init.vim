@@ -13,5 +13,6 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'quabug/vim-gdscript'
 Plug 'quabug/molokai'
 Plug 'digitaltoad/vim-pug'
+Plug 'jceb/vim-orgmode'
 call plug#end()
 colorscheme molokai
