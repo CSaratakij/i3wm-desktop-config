@@ -10,9 +10,13 @@ highlight Search ctermbg=yellow ctermfg=black
 filetype plugin indent on
 syntax on
 call plug#begin('~/.config/nvim/plugged')
-Plug 'quabug/vim-gdscript'
-Plug 'quabug/molokai'
 Plug 'digitaltoad/vim-pug'
+Plug 'valloric/youcompleteme'
+Plug 'quabug/molokai'
+Plug 'quabug/vim-gdscript'
 Plug 'jceb/vim-orgmode'
+Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 call plug#end()
 colorscheme molokai
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_confirm_extra_conf = 0
