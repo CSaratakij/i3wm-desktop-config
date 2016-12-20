@@ -193,9 +193,11 @@ bindsym $mod+shift+F12 exec ~/Tools/Utils/lock.sh
 # Lock screen automatically after given time by xautolock
 exec xautolock -time 15 -locker ~/Tools/Utils/lock.sh
 
-
 # Lanuch xflux
 exec --no-startup-id xflux -l 13.9706, 100.6457 -k 4200 -nofork
 
 # Start dunst
 exec --no-startup-id dunst -config ~/.dunstrc
+
+# Set Wallpaper
+exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper/wallpaper.png
