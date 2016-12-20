@@ -28,3 +28,10 @@ For vim to x clipboard (Copy text from vim to x clipboard)
 For x clipboard to vim (Paste to vim)
 - In normal mode -> press "+p or "*p to paste
 ------------------------------
+
+Note
+
+registers: '+' = clipboard,
+registers: '*' = mouse-selected-text
+
+------------------------------
