@@ -14,7 +14,6 @@ Plug 'digitaltoad/vim-pug'
 Plug 'valloric/youcompleteme'
 Plug 'quabug/molokai'
 Plug 'quabug/vim-gdscript'
-Plug 'jceb/vim-orgmode'
 Plug 'triglav/vim-visual-increment'
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 call plug#end()
