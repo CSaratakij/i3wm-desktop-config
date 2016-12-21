@@ -200,4 +200,4 @@ exec --no-startup-id xflux -l 13.9706, 100.6457 -k 4200 -nofork
 exec --no-startup-id dunst -config ~/.dunstrc
 
 # Set Wallpaper
-exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper/wallpaper.png
+exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper/wallpaper.*

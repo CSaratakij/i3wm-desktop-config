@@ -1,4 +1,5 @@
-![i3wm-desktop-config](screenshots/1.png)
+![i3wm-desktop-config](screenshots/0.png)
+![i3wm-desktop-config](screenshots/3.png)
 
 # Note
 - Change dir "xlock" to ".xlock" -> move to home dir (~)
@@ -17,6 +18,8 @@
 - X11
 - [FontAwesome](https://github.com/FortAwesome/Font-Awesome)
 - [powerline (fonts)](https://github.com/powerline/fonts)
+- [Noto Sans](https://fonts.google.com/specimen/Noto+Sans)
+- [Roboto](https://fonts.google.com/specimen/Roboto)
 - scrot
 - imagemagick
 - xautolock
@@ -37,9 +40,13 @@
 - neovim
 
 # Desktop themes
-- [paper-gtk-theme](https://github.com/snwh/paper-gtk-theme)
+- [adapta-gtk-theme](https://github.com/adapta-project/adapta-gtk-theme)
 - [paper-icon-theme](https://github.com/snwh/paper-icon-theme)
 - [paper-cursor-theme](https://github.com/snwh/paper-icon-theme)
+
+# Wallpaper
+- Use (Tealized)
+- [adapta-backgrounds](https://github.com/adapta-project/adapta-backgrounds)
 
 # Display Manager
 - [cdm](https://github.com/ghost1227/cdm)
