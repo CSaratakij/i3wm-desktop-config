@@ -6,6 +6,7 @@ set statusline=%t
 set relativenumber
 set autoindent
 set hlsearch
+set showcmd
 highlight Search ctermbg=yellow ctermfg=black
 filetype plugin indent on
 syntax on
