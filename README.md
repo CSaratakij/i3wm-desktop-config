@@ -35,9 +35,9 @@
 - gtk3
 - [ag](https://github.com/ggreer/the_silver_searcher)
 - xdg-user-dirs
-- vimfx(https://github.com/akhodakivskiy/VimFx)
 - vim
-- vim-plug(https://github.com/junegunn/vim-plug)
+- [vimfx](https://github.com/akhodakivskiy/VimFx)
+- [vim-plug](https://github.com/junegunn/vim-plug)
 - neovim
 
 # Desktop themes
