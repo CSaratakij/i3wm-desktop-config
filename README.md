@@ -20,6 +20,7 @@
 - [powerline (fonts)](https://github.com/powerline/fonts)
 - [Noto Sans](https://fonts.google.com/specimen/Noto+Sans)
 - [Roboto](https://fonts.google.com/specimen/Roboto)
+- [RobotoMono](https://fonts.google.com/specimen/Roboto+Mono)
 - scrot
 - imagemagick
 - xautolock
