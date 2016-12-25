@@ -20,5 +20,6 @@ Plug 'triglav/vim-visual-increment'
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 call plug#end()
 colorscheme molokai
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_confirm_extra_conf = 0
