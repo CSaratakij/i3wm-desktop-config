@@ -11,6 +11,9 @@ set showcmd
 highlight Search ctermbg=yellow ctermfg=black
 filetype plugin indent on
 syntax on
+let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
+let mapleader = ","
+let maplocalleader = ","
 call plug#begin('~/.config/nvim/plugged')
 Plug 'digitaltoad/vim-pug'
 Plug 'valloric/youcompleteme'
@@ -24,6 +27,5 @@ Plug 'vim-scripts/utl.vim'
 Plug 'mattn/calendar-vim'
 call plug#end()
 colorscheme molokai
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_confirm_extra_conf = 0
