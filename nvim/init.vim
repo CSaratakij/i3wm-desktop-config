@@ -20,6 +20,7 @@ Plug 'triglav/vim-visual-increment'
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 Plug 'jceb/vim-orgmode'
 Plug 'tpope/vim-speeddating'
+Plug 'vim-scripts/utl.vim'
 call plug#end()
 colorscheme molokai
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
