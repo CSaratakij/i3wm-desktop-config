@@ -16,15 +16,14 @@ let mapleader = ","
 let maplocalleader = ","
 call plug#begin('~/.config/nvim/plugged')
 Plug 'digitaltoad/vim-pug'
+Plug 'triglav/vim-visual-increment'
 Plug 'valloric/youcompleteme'
 Plug 'quabug/molokai'
-Plug 'quabug/vim-gdscript'
-Plug 'triglav/vim-visual-increment'
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
-Plug 'jceb/vim-orgmode'
-Plug 'tpope/vim-speeddating'
-Plug 'vim-scripts/utl.vim'
-Plug 'mattn/calendar-vim'
+Plug 'quabug/vim-gdscript', { 'for': 'gdscript' }
+Plug 'jceb/vim-orgmode', { 'for': 'org' }
+Plug 'tpope/vim-speeddating', { 'for': 'org' }
+Plug 'vim-scripts/utl.vim', { 'for': 'org' }
+Plug 'mattn/calendar-vim', { 'for': 'org' }
 call plug#end()
 colorscheme molokai
 let g:ycm_autoclose_preview_window_after_insertion = 1
