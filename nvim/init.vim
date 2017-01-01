@@ -15,10 +15,10 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
 let mapleader = ","
 let maplocalleader = ","
 call plug#begin('~/.config/nvim/plugged')
-Plug 'digitaltoad/vim-pug'
 Plug 'triglav/vim-visual-increment'
 Plug 'valloric/youcompleteme'
 Plug 'quabug/molokai'
+Plug 'digitaltoad/vim-pug', { 'for': 'pug' }
 Plug 'quabug/vim-gdscript', { 'for': 'gdscript' }
 Plug 'jceb/vim-orgmode', { 'for': 'org' }
 Plug 'tpope/vim-speeddating', { 'for': 'org' }
