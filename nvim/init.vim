@@ -11,13 +11,11 @@ set showcmd
 highlight Search ctermbg=yellow ctermfg=black
 filetype plugin indent on
 syntax on
-let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
 let mapleader = ","
 let maplocalleader = ","
 call plug#begin('~/.config/nvim/plugged')
-Plug 'triglav/vim-visual-increment'
-Plug 'valloric/youcompleteme'
 Plug 'quabug/molokai'
+Plug 'triglav/vim-visual-increment'
 Plug 'digitaltoad/vim-pug', { 'for': 'pug' }
 Plug 'quabug/vim-gdscript', { 'for': 'gdscript' }
 Plug 'jceb/vim-orgmode', { 'for': 'org' }
