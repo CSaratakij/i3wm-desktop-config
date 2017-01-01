@@ -16,6 +16,7 @@ let maplocalleader = ","
 call plug#begin('~/.config/nvim/plugged')
 Plug 'quabug/molokai'
 Plug 'triglav/vim-visual-increment'
+Plug 'tpope/vim-surround'
 Plug 'digitaltoad/vim-pug', { 'for': 'pug' }
 Plug 'quabug/vim-gdscript', { 'for': 'gdscript' }
 Plug 'jceb/vim-orgmode', { 'for': 'org' }
