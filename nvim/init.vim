@@ -26,5 +26,3 @@ Plug 'vim-scripts/utl.vim', { 'for': 'org' }
 Plug 'mattn/calendar-vim', { 'for': 'org' }
 call plug#end()
 colorscheme molokai
-let g:ycm_autoclose_preview_window_after_insertion = 1
-let g:ycm_confirm_extra_conf = 0
