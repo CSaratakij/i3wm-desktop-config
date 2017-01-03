@@ -2,7 +2,9 @@
 ![i3wm-desktop-config](screenshots/3.png)
 
 # Note
-- Change dir "xlock" to ".xlock" -> move to home dir (~)
+- Copy "i3/*" to ("~/.config/i3/")
+- Copy "nvim/init.vim" to ("~/.config/nvim/")
+- Change dir "xlock" to ".xlock" -> (~)
 - Change "cdmrc" to ".cdmrc" -> (~)
 - Change "dunstrc" to ".dunstrc" -> (~)
 - Change "tmux.conf" to ".tmux.conf" -> (~)
@@ -11,8 +13,7 @@
 - Change "zshrc" to ".zshrc" -> (~)
 - Change "vimrc" to ".vimrc" -> (~)
 - Change "vimfx" to ".vimfx" -> (~)
-- Copy "geometry.zsh-theme" to ("~/.oh-my-zsh/custom/themes/")
-- Copy "init.vim" to ("~/.config/nvim/")
+- Copy "oh-my-zsh/theme/geometry.zsh-theme" to ("~/.oh-my-zsh/custom/themes/")
 
 # Dependencies
 - X11
