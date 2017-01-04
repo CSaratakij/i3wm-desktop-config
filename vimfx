@@ -1,4 +1,6 @@
 {
+  "prevent_autofocus": true,
+  "browsewithcaret": true,
   "mode.normal.history_back": "J",
   "mode.normal.history_forward": "K",
   "mode.normal.scroll_page_down": "<c-f>",
@@ -7,6 +9,9 @@
   "mode.normal.scroll_half_page_up": "<c-u>",
   "mode.normal.tab_select_previous": "H    gT",
   "mode.normal.tab_select_next": "L    gt",
+  "mode.normal.tab_move_backward": "<<",
+  "mode.normal.tab_move_forward": ">>",
+  "mode.normal.tab_move_to_window": "W",
   "mode.normal.esc": "<force><c-[>",
   "mode.caret.exit": "<c-[>",
   "mode.hints.exit": "<c-[>",
