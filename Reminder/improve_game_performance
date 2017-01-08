@@ -1,0 +1,34 @@
+Game : Opsu
+----------------------------------------
+
+	We will improve Opsu performance by ditch window manager completely. By simply
+start Display server (X) with Opsu only, The result is fantastic.
+The game seems to be more responsive and more smooth.
+
+
+How to use it:
+----------------------------------------
+	- See -> xintrc in this repos and adapt to your own need.
+	- In tty, simply type : 'startx ~/.xintrc opsu' where opsu is a case pattern that you specify in the .xintrc
+
+
+Current Notice Bug:
+----------------------------------------
+	Version 13.0
+		- With this approach, There is no window manager anymore. So, running Opsu in window mode 
+	made Game menu(ESC) trigger every time you try to play the game.
+
+		[ Solved by simply toggle fullscreen mode ;) ]
+
+
+For : Laptop
+----------------------------------------
+
+	To avoid Laptop temperature getting too high:
+		- Disable modern cursor
+		- Use framerate limit -> 60fps
+
+
+Things that won't effect performance anymore
+----------------------------------------
+	- Sounds effect ( It seems like, this approach eliminate lagging issue with sound effect turn on, Or maybe mainstream fixed it?)
