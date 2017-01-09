@@ -26,7 +26,7 @@ binlist=(
 #
 # (Continued example:)
 # namelist=('X session' Console FBTerm 'Sub menu')
-namelist=("GUI" "Tmux" "Console")
+namelist=("i3" "Tmux" "Terminal")
 
 # Type of the programs, one-by-one matched with $binlist.
 # `C' for *C*onsole programs, which would be `exec'ed.
