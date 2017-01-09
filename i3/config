@@ -105,6 +105,10 @@ bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
+# cycle between workspace
+bindsym $mod+n workspace next
+bindsym $mod+p workspace prev
+
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1
 bindsym $mod+Shift+2 move container to workspace 2
@@ -119,8 +123,10 @@ bindsym $mod+Shift+0 move container to workspace 10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
+
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
+
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
@@ -150,6 +156,10 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+# Toggle bar between dock mode and invisible mode
+bindsym $mod+m bar mode dock
+bindsym $mod+Shift+m bar mode invisible
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
