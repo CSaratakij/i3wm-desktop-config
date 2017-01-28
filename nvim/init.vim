@@ -20,9 +20,10 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'digitaltoad/vim-pug', { 'for': 'pug' }
 Plug 'quabug/vim-gdscript', { 'for': 'gdscript' }
-Plug 'jceb/vim-orgmode', { 'for': 'org' }
-Plug 'tpope/vim-speeddating', { 'for': 'org' }
-Plug 'vim-scripts/utl.vim', { 'for': 'org' }
-Plug 'mattn/calendar-vim', { 'for': 'org' }
+Plug 'easymotion/vim-easymotion'
+"Plug 'jceb/vim-orgmode', { 'for': 'org' }
+"Plug 'tpope/vim-speeddating', { 'for': 'org' }
+"Plug 'vim-scripts/utl.vim', { 'for': 'org' }
+"Plug 'mattn/calendar-vim', { 'for': 'org' }
 call plug#end()
 colorscheme molokai
