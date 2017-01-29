@@ -12,6 +12,8 @@ case $session in
 		exec compton -CG &
 		exec i3
 	;;
+	gnome		) exec gnome-session
+	;;
 	opsu	) exec java -jar /home/csaratakij/Opsu/opsu-0.14.0.jar
 	;;
 	firefox	) exec --no-startup-id xflux -l 13.9706, 100.6457 -k 4200 -nofork &
