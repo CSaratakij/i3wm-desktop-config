@@ -8,7 +8,7 @@ export TERMINAL=st
 session=${1:-i3}
 
 case $session in
-	i3		) exec ibus &
+	i3		) exec ibus-daemon -drx &
 		exec compton -CG &
 		exec i3
 	;;
@@ -17,7 +17,7 @@ case $session in
 	opsu	) exec java -jar /home/csaratakij/Opsu/opsu-0.14.0.jar
 	;;
 	firefox	) exec --no-startup-id xflux -l 13.9706, 100.6457 -k 4200 -nofork &
-		exec ibus &
+		exec ibus-daemon -drx &
 		exec firefox
 	;;
 	gparted	) exec --no-startup-id xflux -l 13.9706, 100.6457 -k 4200 -nofork &
