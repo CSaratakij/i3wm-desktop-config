@@ -32,7 +32,7 @@
 - [xflux](https://justgetflux.com/)
 - dunst
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-- fcitx
+- ibus
 - gtk2
 - gtk3
 - [ag](https://github.com/ggreer/the_silver_searcher)
