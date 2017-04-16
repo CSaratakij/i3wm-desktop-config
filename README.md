@@ -1,4 +1,7 @@
+# Renovate Result :
 ![normal](screenshots/normal.png)
+![switch window](screenshots/switch_window.png)
+![dmenu replacement](screenshots/dmenu_replcement.png)
 ![workspace 8](screenshots/workspace8.png)
 ![workspace 10](screenshots/workspace10.png)
 
