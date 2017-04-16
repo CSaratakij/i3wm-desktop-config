@@ -45,14 +45,15 @@
 - Copy "vimfx" to "~/.vimfx"
 
 # Dependencies
-- [i3-gaps]()
+- [i3-gaps](https://github.com/Airblader/i3)
 - [FontAwesome](https://github.com/FortAwesome/Font-Awesome)
 - [powerline (fonts)](https://github.com/powerline/fonts)
 - [Noto Sans](https://fonts.google.com/specimen/Noto+Sans)
 - [Roboto](https://fonts.google.com/specimen/Roboto)
 - [RobotoMono](https://fonts.google.com/specimen/Roboto+Mono)
-- tty-clock
-- cava
+- [screenfetch](https://github.com/KittyKatt/screenFetch)
+- [tty-clock](https://github.com/xorg62/tty-clock)
+- [cava](https://github.com/karlstav/cava)
 - feh
 - scrot
 - imagemagick
