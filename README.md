@@ -1,22 +1,51 @@
-![i3wm-desktop-config](screenshots/0.png)
-![i3wm-desktop-config](screenshots/3.png)
+# Renovate Result :
+![normal](screenshots/normal.png)
+![switch window](screenshots/switch_window.png)
+![dmenu replacement](screenshots/dmenu_replcement.png)
+![workspace 8](screenshots/workspace8.png)
+![workspace 10](screenshots/workspace10.png)
 
-# Note
-- Copy "i3/*" to ("~/.config/i3/")
-- Copy "nvim/init.vim" to ("~/.config/nvim/")
-- Change dir "xlock" to ".xlock" -> (~)
-- Change "cdmrc" to ".cdmrc" -> (~)
-- Change "dunstrc" to ".dunstrc" -> (~)
-- Change "tmux.conf" to ".tmux.conf" -> (~)
-- Change "Xdefaults" to ".Xdefaults" -> (~)
-- Change "xinitrc" to ".xinitrc" -> (~)
-- Change "zshrc" to ".zshrc" -> (~)
-- Change "vimrc" to ".vimrc" -> (~)
-- Change "vimfx" to ".vimfx" -> (~)
-- Copy "oh-my-zsh/theme/geometry.zsh-theme" to ("~/.oh-my-zsh/custom/themes/")
+# What's new
+- New system dashboard workspace layout.
+- New music workspace layout.
+- New desktop wallpaper.
+- Use "compton" as compositor.
+- Use "urxvt" as terminal with transperent background.
+- Remove "i3bar".
+- Replace "i3" with "i3-gaps".
+- Replace "dmenu" with "rofi".
+- Add "Mod + Shift + ;" to show rofi's window switcher dialog.
+- Add "Mod + :" to show tmux's workspace switcher dialog.
+- Add "cava" to music workspace.
+- Add "tty-clock" to system dashboard workspace.
+- Make "urxvt" as default terminal.
+
+# Workspace Rules
+- (1) : Web Browser -> (Chrome, Firefox, etc..)
+- (2) : Communication -> (Voip program(Skype, Teamspeaks), Chat(Discord, Weechat), etc..)
+- (3) : Games -> (Steam, Itch.io, etc..)
+- (4) : General Purpose
+- (5) : General Purpose
+- (6) : General Purpose
+- (7) : Assests Creation Program -> (Gimp, Kritra, Inkscape, Blender, Audacity, etc..)
+- (8) : Music & Video stuff + Audio mixer -> (Cmus, Mps-Youtube, alsamixer, etc..)
+- (9) : Current Serious Works -> (Game Engine, Working Program Project, etc..)
+- (10) : System Dashboard & System Mantinence -> (htop, free, screenfetch, terminal with pacman, etc..)
+
+# Config Directory
+- Copy "i3-gaps/*" to "~/.config/i3"
+- Copy "cava/*" to "~/.config/cava"
+- Copy "cdmrc" to "~/.cdmrc"
+- Copy "tmux.conf" to "~/.tmux.conf"
+- Copy "Xdefaults" to "~/.Xdefaults"
+- Copy "Xresources" to "~/.Xresources"
+- Copy "xinitrc" to "~/.xinitrc"
+- Copy "zshrc" to "~/.zshrc"
+- Copy "vimrc" to "~/.vimrc"
+- Copy "vimfx" to "~/.vimfx"
 
 # Dependencies
-- X11
+- [i3-gaps]()
 - [FontAwesome](https://github.com/FortAwesome/Font-Awesome)
 - [powerline (fonts)](https://github.com/powerline/fonts)
 - [Noto Sans](https://fonts.google.com/specimen/Noto+Sans)
@@ -25,31 +54,20 @@
 - feh
 - scrot
 - imagemagick
-- xautolock
-- xfce4-screenshooter
-- lxterminal
-- st
-- [xflux](https://justgetflux.com/)
-- dunst
-- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 - ibus
-- gtk2
+- xfce4-screenshooter
+- urxvt
+- [xflux](https://justgetflux.com/)
+- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 - gtk3
 - [ag](https://github.com/ggreer/the_silver_searcher)
 - xdg-user-dirs
 - vim
 - [vimfx](https://github.com/akhodakivskiy/VimFx)
-- [vim-plug](https://github.com/junegunn/vim-plug)
-- neovim
 
 # Desktop themes
 - [adapta-gtk-theme](https://github.com/adapta-project/adapta-gtk-theme)
 - [paper-icon-theme](https://github.com/snwh/paper-icon-theme)
-- [paper-cursor-theme](https://github.com/snwh/paper-icon-theme)
-
-# Wallpaper
-- Use (Tealized)
-- [adapta-backgrounds](https://github.com/adapta-project/adapta-backgrounds)
 
 # Display Manager
 - [cdm](https://github.com/ghost1227/cdm)
@@ -58,5 +76,5 @@
 - zsh
 
 # Zsh theme
-- [geometry](https://github.com/frmendes/geometry)
+- [mh](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/mh.zsh-theme)
 
