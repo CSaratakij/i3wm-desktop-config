@@ -35,7 +35,7 @@
 - Copy "cdmrc" to "~/.cdmrc"
 - Copy "tmux.conf" to "~/.tmux.conf"
 - Copy "Xdefaults" to "~/.Xdefaults"
-- Copy ".Xresources" to "~/.Xresources"
+- Copy "Xresources" to "~/.Xresources"
 - Copy "xinitrc" to "~/.xinitrc"
 - Copy "zshrc" to "~/.zshrc"
 - Copy "vimrc" to "~/.vimrc"
@@ -66,9 +66,6 @@
 - [adapta-gtk-theme](https://github.com/adapta-project/adapta-gtk-theme)
 - [paper-icon-theme](https://github.com/snwh/paper-icon-theme)
 
-# Wallpaper
-- []()
-
 # Display Manager
 - [cdm](https://github.com/ghost1227/cdm)
 
@@ -76,5 +73,5 @@
 - zsh
 
 # Zsh theme
-- [geometry](https://github.com/frmendes/geometry) <- use "mh" now (better find that repos)
+- [mh](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/mh.zsh-theme)
 
