@@ -35,13 +35,11 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run -nb black -nf white -sb white -sf black -fn RobotoMono:size=10
-
-# There also is the (new) i3-dmenu-desktop which only displays applications
-# shipping a .desktop file. It is a wrapper around dmenu, so you need that
-# installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+# start rofi
+bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 262 -disable-history -font "RobotoMono 18"
+#
+# rofi with change window feature (like select window in tmux) 
+bindsym $mod+Shift+semicolon exec rofi -show window -location 5 -width 50 -lines 15 -disable-history -font "RobotoMono 12"
 
 # change focus (try with vim keybiding for practice vim editor) (i3wm keybinding movement scheme conflict with vim wich will be disaster to use i3wm+vim together)
 bindsym $mod+h focus left
@@ -94,32 +92,32 @@ bindsym $mod+space focus mode_toggle
 #bindsym $mod+d focus child
 
 # switch to workspace
-bindsym $mod+1 workspace 1
-bindsym $mod+2 workspace 2
-bindsym $mod+3 workspace 3
-bindsym $mod+4 workspace 4
-bindsym $mod+5 workspace 5
-bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace 7
-bindsym $mod+8 workspace 8
-bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
+bindsym $mod+1 workspace 1:
+bindsym $mod+2 workspace 2:
+bindsym $mod+3 workspace 3:
+bindsym $mod+4 workspace 4:
+bindsym $mod+5 workspace 5:
+bindsym $mod+6 workspace 6:
+bindsym $mod+7 workspace 7:
+bindsym $mod+8 workspace 8:
+bindsym $mod+9 workspace 9:
+bindsym $mod+0 workspace 10:
 
 # cycle between workspace
 bindsym $mod+n workspace next
 bindsym $mod+p workspace prev
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1
-bindsym $mod+Shift+2 move container to workspace 2
-bindsym $mod+Shift+3 move container to workspace 3
-bindsym $mod+Shift+4 move container to workspace 4
-bindsym $mod+Shift+5 move container to workspace 5
-bindsym $mod+Shift+6 move container to workspace 6
-bindsym $mod+Shift+7 move container to workspace 7
-bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
+bindsym $mod+Shift+1 move container to workspace 1:
+bindsym $mod+Shift+2 move container to workspace 2:
+bindsym $mod+Shift+3 move container to workspace 3:
+bindsym $mod+Shift+4 move container to workspace 4:
+bindsym $mod+Shift+5 move container to workspace 5:
+bindsym $mod+Shift+6 move container to workspace 6:
+bindsym $mod+Shift+7 move container to workspace 7:
+bindsym $mod+Shift+8 move container to workspace 8:
+bindsym $mod+Shift+9 move container to workspace 9:
+bindsym $mod+Shift+0 move container to workspace 10:
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -139,16 +137,16 @@ mode "resize" {
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
 
-	bindsym h resize shrink width 10 px or 10 ppt
-        bindsym j resize grow height 10 px or 10 ppt
-        bindsym k resize shrink height 10 px or 10 ppt
-        bindsym l resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 6 px or 6 ppt
+        bindsym j resize grow height 6 px or 6 ppt
+        bindsym k resize shrink height 6 px or 6 ppt
+        bindsym l resize grow width 6 px or 6 ppt
 
         # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Left resize shrink width 6 px or 6 ppt
+        bindsym Down resize grow height 6 px or 6 ppt
+        bindsym Up resize shrink height 6 px or 6 ppt
+        bindsym Right resize grow width 6 px or 6 ppt
 
         # back to normal: Enter or Escape
         bindsym Return mode "default"
@@ -157,43 +155,17 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Toggle bar between dock mode and invisible mode
-bindsym $mod+m bar mode dock
-bindsym $mod+Shift+m bar mode invisible
-
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-bar {
-
-	#Disable Mouse Behaviour on bar
-	bindsym button1 nop	#Disable mouse button 'left'
-	bindsym button4 nop	#Disable mouse scroll 'up'
-	bindsym button5 nop	#Disable mouse scroll 'down'
-
-	tray_output none
-	font pango:RobotoMono, FontAwesome 8
-	position top
-    status_command i3status -c ~/.config/i3/i3status.conf
-	colors {
-        	background #000000
-        	statusline #ffffff
-        	separator #000000
-
-        	focused_workspace  #666666 #ffffff #000000
-        	active_workspace   #333333 #5f676a #ffffff
-        	inactive_workspace #333333 #222222 #888888
-        	urgent_workspace   #2f343a #900000 #ffffff
-        	binding_mode       #2f343a #900000 #ffffff
-    	}
-}
-
 # Disable titlebar
 new_window pixel 1
 new_float pixel 1
 
+# Gaps (i3-gaps)
+gaps inner 8
+gaps outer 8
+
 # Window Border color
-client.focused              #ffffff #ffffff #000000
-client.urgent               #900000 #900000 #ffffff
+client.focused              #ffffff #ffffff #000000 
+client.urgent               #900000 #900000 #ffffff 
 
 # Enable popup during fullscreen
 popup_during_fullscreen smart
@@ -204,17 +176,8 @@ focus_follows_mouse no
 # Bind print screen
 bindsym Print exec xfce4-screenshooter
 
-# Bind lock screen
-bindsym $mod+shift+F12 exec ~/Tools/Utils/lock.sh
-
-# Lock screen automatically after given time by xautolock
-exec xautolock -time 15 -locker ~/Tools/Utils/lock.sh
-
 # Lanuch xflux
 exec --no-startup-id xflux -l 13.9706, 100.6457 -k 4200 -nofork
-
-# Start dunst
-exec --no-startup-id dunst -config ~/.dunstrc
 
 # Set Wallpaper
 exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper/wallpaper.*

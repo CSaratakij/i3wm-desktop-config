@@ -18,10 +18,6 @@ binlist=(
     'startx'
     '/usr/bin/tmux -2'
     '/bin/zsh --login'
-    '/usr/bin/weston-launch'
-    '/usr/bin/weston-launch -- --modules=xwayland.so'
-    '/usr/bin/sway'
-    'startx ~/.xinitrc gnome'
 )
 
 
@@ -30,7 +26,7 @@ binlist=(
 #
 # (Continued example:)
 # namelist=('X session' Console FBTerm 'Sub menu')
-namelist=("i3" "Tmux" "Terminal" "Weston" "Weston&XWayland" "Sway" "Gnome")
+namelist=("i3" "Tmux" "Terminal")
 
 # Type of the programs, one-by-one matched with $binlist.
 # `C' for *C*onsole programs, which would be `exec'ed.
@@ -38,7 +34,7 @@ namelist=("i3" "Tmux" "Terminal" "Weston" "Weston&XWayland" "Sway" "Gnome")
 #
 # (Continued example:)
 # flaglist=(X C C C)
-flaglist=(C C C C C C C)
+flaglist=(C C C)
 
 # Style for the cdm dialog, which is printed with dialog(1).
 # Default to unset, causing dialog(1) to use the system wide default.
