@@ -1,4 +1,4 @@
-export ZSH=/home/csaratakij/.oh-my-zsh
+export ZSH=/home/$USER/.oh-my-zsh
 
 ZSH_THEME="mh"
 plugins=(git colored-man-pages compleat)
