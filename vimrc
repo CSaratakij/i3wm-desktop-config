@@ -21,3 +21,4 @@ Plug 'digitaltoad/vim-pug', { 'for': 'pug' }
 Plug 'quabug/vim-gdscript', { 'for': 'gdscript' }
 call plug#end()
 colorscheme molokai
+hi Normal guibg=NONE ctermbg=NONE
