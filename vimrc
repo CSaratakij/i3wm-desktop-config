@@ -8,7 +8,6 @@ set relativenumber
 set number
 set autoindent
 set hlsearch
-highlight Search ctermbg=yellow ctermfg=black
 filetype plugin indent on
 syntax on
 call plug#begin('~/.vim/plugged')
@@ -22,3 +21,4 @@ Plug 'quabug/vim-gdscript', { 'for': 'gdscript' }
 call plug#end()
 colorscheme molokai
 hi Normal guibg=NONE ctermbg=NONE
+highlight Search ctermbg=yellow ctermfg=black
