@@ -21,4 +21,5 @@ Plug 'quabug/vim-gdscript', { 'for': 'gdscript' }
 call plug#end()
 colorscheme molokai
 hi Normal guibg=NONE ctermbg=NONE
+hi LineNr guibg=NONE ctermbg=NONE
 highlight Search ctermbg=yellow ctermfg=black
