@@ -8,6 +8,7 @@ set relativenumber
 set number
 set autoindent
 set hlsearch
+set include=
 filetype plugin indent on
 syntax on
 call plug#begin('~/.vim/plugged')
@@ -22,4 +23,5 @@ call plug#end()
 colorscheme molokai
 hi Normal guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE ctermbg=NONE
-highlight Search ctermbg=yellow ctermfg=black
+hi Search ctermbg=yellow ctermfg=black
+hi PmenuSel ctermbg=yellow ctermfg=black
