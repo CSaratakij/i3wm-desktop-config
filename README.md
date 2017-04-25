@@ -43,6 +43,7 @@
 - Copy "zshrc" to "~/.zshrc"
 - Copy "vimrc" to "~/.vimrc"
 - Copy "vimfx" to "~/.vimfx"
+- Move "/usr/share/cmus/default.theme" to "default_ori.theme" && Copy "cmus/default.theme" to "~/.config/cmus"
 
 # Dependencies
 - [i3-gaps](https://github.com/Airblader/i3)
