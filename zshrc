@@ -10,6 +10,33 @@ alias v=vim
 
 export EDITOR=vim
 
+function batinfo() {
+    while [ true ]
+    do
+        acpi -b;
+        sleep 5;
+        clear;
+    done
+}
+
+function tempinfo() {
+    while [ true ]
+    do
+        acpi -t;
+        sleep 5;
+        clear;
+    done
+}
+
+function meminfo() {
+    while [ true ]
+    do
+        free -h;
+        sleep 5;
+        clear;
+    done
+}
+
 # --------------------------------------------------
 #|            Credit : Chanon BagIdea              |
 #|-------------------------------------------------|
