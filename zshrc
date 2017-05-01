@@ -44,6 +44,8 @@ function meminfo() {
 #|-------------------------------------------------|
 #|     lp = cd to last process working dir         |
 #|     cl = cd to last process working dir & ls -a |
+#|     reshell = zsh restart                       |
+#|     fd = favorite dir                           |
 # --------------------------------------------------
 
 function cd_ex() {
@@ -61,5 +63,12 @@ function lp() {
     cd $LASTWD
 }
 
+function reshell() {
+    exec zsh -l
+}
+
 alias cd="cd_ex"
 alias cl="cd_el"
+alias fd="fdir.sh"
+
+source ~/.fdirrc

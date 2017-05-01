@@ -68,6 +68,7 @@
 - xdg-user-dirs
 - vim
 - [vimfx](https://github.com/akhodakivskiy/VimFx)
+- [fdir](https://github.com/RealtimeBagIdea/FDir)
 
 # Desktop themes
 - [adapta-gtk-theme](https://github.com/adapta-project/adapta-gtk-theme)
