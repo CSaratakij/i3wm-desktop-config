@@ -5,6 +5,7 @@ plugins=(git colored-man-pages compleat)
 
 source $ZSH/oh-my-zsh.sh
 
+alias c=clear
 alias vi=vim
 alias v=vim
 
