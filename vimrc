@@ -22,6 +22,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'rust-lang/rust.vim', { 'for': 'rust' }
 Plug 'digitaltoad/vim-pug', { 'for': 'pug' }
 Plug 'quabug/vim-gdscript', { 'for': 'gdscript' }
+Plug 'jceb/vim-orgmode', { 'for': 'org' }
+Plug 'tpope/vim-speeddating', { 'for': 'org' }
 call plug#end()
 colorscheme molokai
 hi Normal guibg=NONE ctermbg=NONE
