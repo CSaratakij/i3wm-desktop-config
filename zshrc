@@ -71,4 +71,10 @@ alias cd="cd_ex"
 alias cl="cd_el"
 alias fd="fdir.sh"
 
-source ~/.fdirrc
+FDIR_PATH=/home/$USER/.fdirrc
+
+if [ ! -f $FDIR_PATH ]; then
+    touch $FDIR_PATH
+fi
+
+source $FDIR_PATH
