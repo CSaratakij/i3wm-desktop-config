@@ -1,4 +1,10 @@
-export ZSH=/home/$USER/.oh-my-zsh
+ZSH_CURRENT_USER=$(whoami)
+
+if [ "$ZSH_CURRENT_USER" = "root" ]; then
+    export ZSH=/$ZSH_CURRENT_USER/.oh-my-zsh
+else
+    export ZSH=/home/$ZSH_CURRENT_USER/.oh-my-zsh
+fi
 
 ZSH_THEME="mh"
 plugins=(git colored-man-pages compleat)
@@ -72,6 +78,10 @@ alias cd="cd_ex"
 alias cl="cd_el"
 alias fd="fdir.sh"
 
-FDIR_PATH=/home/$USER/.fdirrc
+if [ "$ZSH_CURRENT_USER" = "root" ]; then
+    FDIR_PATH=/$ZSH_CURRENT_USER/.fdirrc
+else
+    FDIR_PATH=/home/$ZSH_CURRENT_USER/.fdirrc
+fi
 
 source $FDIR_PATH
