@@ -73,8 +73,4 @@ alias fd="fdir.sh"
 
 FDIR_PATH=/home/$USER/.fdirrc
 
-if [ ! -f $FDIR_PATH ]; then
-    touch $FDIR_PATH
-fi
-
 source $FDIR_PATH
