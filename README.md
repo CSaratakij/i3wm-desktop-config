@@ -69,6 +69,8 @@
 - vim
 - [vimfx](https://github.com/akhodakivskiy/VimFx)
 - [fdir](https://github.com/RealtimeBagIdea/FDir)
+- [plymouth](https://www.freedesktop.org/wiki/Software/Plymouth)
+- [lnxpcs](https://github.com/jstpcs/lnxpcs)
 
 # Desktop themes
 - [adapta-gtk-theme](https://github.com/adapta-project/adapta-gtk-theme)
