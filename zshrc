@@ -78,10 +78,4 @@ alias cd="cd_ex"
 alias cl="cd_el"
 alias fd="fdir.sh"
 
-if [ "$ZSH_CURRENT_USER" = "root" ]; then
-    FDIR_PATH=/$ZSH_CURRENT_USER/.fdirrc
-else
-    FDIR_PATH=/home/$ZSH_CURRENT_USER/.fdirrc
-fi
-
-source $FDIR_PATH
+source ~/.fdirrc
