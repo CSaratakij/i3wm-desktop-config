@@ -76,6 +76,6 @@ function reshell() {
 
 alias cd="cd_ex"
 alias cl="cd_el"
-alias fd="fdir.sh"
+alias f="fdir.sh"
 
 source ~/.fdirrc
