@@ -43,3 +43,4 @@ let g:NERDTreeShowLineNumbers=1
 let g:hardtime_default_on = 1
 let g:hardtime_allow_different_key = 1
 let g:airline_powerline_fonts = 1
+let g:airline_theme = 'bubblegum'
