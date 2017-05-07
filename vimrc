@@ -19,6 +19,7 @@ Plug 'triglav/vim-visual-increment'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-commentary'
 Plug 'rust-lang/rust.vim', { 'for': 'rust' }
 Plug 'digitaltoad/vim-pug', { 'for': 'pug' }
 Plug 'quabug/vim-gdscript', { 'for': 'gdscript' }
