@@ -12,6 +12,7 @@ plugins=(git colored-man-pages compleat)
 source $ZSH/oh-my-zsh.sh
 
 alias c=clear
+alias clock="tty-clock -tcC 7"
 alias vi=vim
 alias v=vim
 
