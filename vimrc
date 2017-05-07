@@ -23,6 +23,7 @@ Plug 'tpope/vim-commentary'
 Plug 'takac/vim-hardtime'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'itchyny/vim-gitbranch'
 Plug 'rust-lang/rust.vim', { 'for': 'rust' }
 Plug 'digitaltoad/vim-pug', { 'for': 'pug' }
 Plug 'quabug/vim-gdscript', { 'for': 'gdscript' }
@@ -44,3 +45,18 @@ let g:hardtime_default_on = 1
 let g:hardtime_allow_different_key = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'bubblegum'
+let g:airline_mode_map = {
+        \ '__' : '------',
+        \ 'n'  : 'N',
+        \ 'i'  : 'I',
+        \ 'R'  : 'R',
+        \ 'v'  : 'V',
+        \ 'V'  : 'V',
+        \ 'c'  : 'C',
+        \ '' : 'V',
+        \ 's'  : 'S',
+        \ 'S'  : 'S',
+        \ '' : 'S',
+        \ 't'  : 'T',
+        \ }
+let g:airline_section_b = '[%{gitbranch#name()}]'
