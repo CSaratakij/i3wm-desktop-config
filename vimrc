@@ -39,3 +39,4 @@ nnoremap <C-k> <C-w><C-k>
 nnoremap <C-l> <C-w><C-l>
 let g:NERDTreeShowLineNumbers=1
 let g:hardtime_default_on = 1
+let g:hardtime_allow_different_key = 1
