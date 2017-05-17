@@ -42,7 +42,7 @@ nnoremap <C-k> <C-w><C-k>
 nnoremap <C-l> <C-w><C-l>
 let g:NERDTreeShowLineNumbers=1
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'bubblegum'
+let g:airline_theme = 'base16_default'
 let g:airline_mode_map = {
         \ '__' : '------',
         \ 'n'  : 'N',
