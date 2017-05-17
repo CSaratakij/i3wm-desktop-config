@@ -20,10 +20,10 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-commentary'
-Plug 'takac/vim-hardtime'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'itchyny/vim-gitbranch'
+Plug 'sagarrakshe/toggle-bool'
 Plug 'rust-lang/rust.vim', { 'for': 'rust' }
 Plug 'digitaltoad/vim-pug', { 'for': 'pug' }
 Plug 'quabug/vim-gdscript', { 'for': 'gdscript' }
@@ -41,8 +41,6 @@ nnoremap <C-j> <C-w><C-j>
 nnoremap <C-k> <C-w><C-k>
 nnoremap <C-l> <C-w><C-l>
 let g:NERDTreeShowLineNumbers=1
-let g:hardtime_default_on = 1
-let g:hardtime_allow_different_key = 1
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'bubblegum'
 let g:airline_mode_map = {
