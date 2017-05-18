@@ -35,6 +35,21 @@ LWin & p::ShiftAltTab
 			WinMaximize
 Return
 
+; Minimized Window (Temponary biding for minimize stack window)
+; tiing window manager have no concept of minimize, will remove these after have proper tiling wm functional
+;
+; Minimized active window
+#m::
+	WinGetActiveTitle, targetWindow
+	IfWinExist, %targetWindow%
+        WinMinimize
+Return
+
+; Minimized all window
+#+m::
+    WinMinimizeAll
+Return
+
 ; Close Window
 #+q::
 	WinGetActiveTitle, targetWindow
