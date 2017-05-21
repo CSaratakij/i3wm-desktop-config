@@ -45,6 +45,33 @@ function meminfo() {
     done
 }
 
+function note() {
+    NOTE_HOME=~/Note
+    NOTE_DIR_EXIST=$(ls ~ | ag Note)
+    if [ "$NOTE_DIR_EXIST" != "Note" ]; then
+        mkdir $NOTE_HOME
+        echo "No Note directory has found."
+        echo "Create Note directory for you."
+        echo "Please execute again..."
+    else
+        cd $NOTE_HOME
+        if [ "$1" = "" ]; then
+            vim
+        else
+            if [ "$1" = "-l" ]; then
+                ls -a $NOTE_HOME
+            else
+                NOTE_FILE=$(ls -a -1 | ag ^$1)
+                if [ "$NOTE_FILE" != "" ]; then
+                    vim $(ls -a -1 | ag ^$1) -p
+                else
+                    echo "Cannot find note file that name begin with :" $1
+                fi
+            fi
+        fi
+    fi
+}
+
 # --------------------------------------------------
 #|            Credit : Chanon BagIdea              |
 #|-------------------------------------------------|
