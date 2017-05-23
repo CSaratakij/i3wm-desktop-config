@@ -46,9 +46,9 @@ function meminfo() {
 }
 
 function note() {
-    NOTE_HOME=~/Note
-    NOTE_DIR_EXIST=$(ls ~ | ag Note)
-    if [ "$NOTE_DIR_EXIST" != "Note" ]; then
+    NOTE_DIR_NAME=Note
+    NOTE_HOME=~/$NOTE_DIR_NAME
+    if [ "$(ls ~ | ag $NOTE_DIR_NAME)" != "$NOTE_DIR_NAME" ]; then
         mkdir $NOTE_HOME
         echo "No Note directory has found."
         echo "Create Note directory for you."
