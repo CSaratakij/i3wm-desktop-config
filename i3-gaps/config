@@ -35,10 +35,11 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start rofi
-bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 262 -disable-history -font "RobotoMono 18"
+#start rofi
+bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 254 -disable-history -font "RobotoMono 18"
 #
 # rofi with change window feature (like select window in tmux) 
+# bindsym $mod+Shift+semicolon exec rofi -show window -location 5 -width 50 -lines 15 -disable-history -font "RobotoMono 12"
 bindsym $mod+Shift+semicolon exec rofi -show window -location 5 -width 50 -lines 15 -disable-history -font "RobotoMono 12"
 
 # change focus (try with vim keybiding for practice vim editor) (i3wm keybinding movement scheme conflict with vim wich will be disaster to use i3wm+vim together)
@@ -154,6 +155,10 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+# Quick Open Vim
+ bindsym $mod+o exec st -ai -e ~/Tools/bin/quick-open-vim.sh -o
+ bindsym $mod+a exec zsh -c "~/Tools/bin/quick-open-vim.sh -c"
 
 # Disable titlebar
 new_window pixel 1

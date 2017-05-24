@@ -19,6 +19,7 @@
 - Add "cava" to music workspace.
 - Add "tty-clock" to system dashboard workspace.
 - Make "urxvt" as default terminal.
+- Quick open vim script to open vim & copy its content to clipboard.
 
 # Workspace Rules
 - (1) : Web Browser -> (Chrome, Firefox, etc..)
@@ -45,6 +46,7 @@
 - Copy "vimfx" to "~/.vimfx"
 - Move "/usr/share/cmus/default.theme" to "default_ori.theme" && Copy "cmus/default.theme" to "~/.config/cmus"
 - Copy "kmscon/kmscon.conf" to "/etc/kmscon"
+- Copy "quick-open-vim/quick-open-vim.sh" to "~/Tools/bin/"
 - In-case of "i3wmstripdown (autohotkey)" -> Recommend to use with Window Subsystem, Tmux and add to auto-startup to make less mouse usage experience. (You may want to compiled .ahk to .exe (Visit AutoHotKey's document for how to))
 
 # Dependencies
