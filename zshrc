@@ -7,7 +7,7 @@ else
 fi
 
 ZSH_THEME="mh"
-plugins=(git colored-man-pages compleat)
+plugins=(git colored-man-pages compleat vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
