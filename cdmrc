@@ -16,7 +16,7 @@
 # )
 binlist=(
     'startx'
-    '/usr/bin/tmux -2'
+    '/usr/bin/tmux -2 -u'
     '/bin/zsh --login'
 )
 
