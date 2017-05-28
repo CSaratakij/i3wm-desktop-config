@@ -12,6 +12,8 @@ plugins=(git colored-man-pages compleat vi-mode)
 source $ZSH/oh-my-zsh.sh
 
 alias c=clear
+alias :q=exit
+alias web="lynx -vikeys https://duckduckgo.com"
 alias clock="tty-clock -tcC 7"
 alias vi=vim
 alias v=vim
