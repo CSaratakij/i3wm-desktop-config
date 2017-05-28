@@ -13,6 +13,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias c=clear
 alias :q=exit
+alias tmk=tmux kill-server
 alias web="lynx -vikeys https://duckduckgo.com"
 alias clock="tty-clock -tcC 7"
 alias vi=vim
