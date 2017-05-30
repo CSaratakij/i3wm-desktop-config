@@ -64,6 +64,8 @@ function note() {
         else
             if [ "$1" = "-l" ]; then
                 ls -a $NOTE_HOME
+            elif [ "$1" = "-A" ]; then
+                vim $(ls -1) -p
             else
                 NOTE_FILE=$(ls -a -1 | ag ^$1)
                 if [ "$NOTE_FILE" != "" ]; then
