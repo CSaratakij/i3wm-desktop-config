@@ -14,7 +14,7 @@ source $ZSH/oh-my-zsh.sh
 alias c=clear
 alias :q=exit
 alias tmk="tmux kill-server"
-alias web="lynx -vikeys https://duckduckgo.com"
+alias web="lynx -accept_all_cookies -number_fields -scrollbar -scrollbar_arrow -vikeys https://duckduckgo.com"
 alias clock="tty-clock -tcC 7"
 alias night="redshift -m drm -l 13.9706:100.6457 -t 5200:4000 -g 0.8 -v"
 alias vi=vim
