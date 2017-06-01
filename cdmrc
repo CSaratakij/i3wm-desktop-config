@@ -15,7 +15,8 @@
 #   '/usr/bin/cdm ~/.submenu.cdmrc'  # or go to a submenu :)
 # )
 binlist=(
-    'startx'
+    '/usr/bin/tmux -2 -u new -s work'
+    '/usr/bin/tmux attach -t work'
     '/usr/bin/tmux -2 -u'
     '/bin/zsh --login'
 )
@@ -26,7 +27,8 @@ binlist=(
 #
 # (Continued example:)
 # namelist=('X session' Console FBTerm 'Sub menu')
-namelist=("i3" "Tmux" "Terminal")
+# namelist=("i3" "Tmux" "Terminal")
+namelist=("Work" "Resume" "Tmux" "Terminal")
 
 # Type of the programs, one-by-one matched with $binlist.
 # `C' for *C*onsole programs, which would be `exec'ed.
@@ -34,7 +36,7 @@ namelist=("i3" "Tmux" "Terminal")
 #
 # (Continued example:)
 # flaglist=(X C C C)
-flaglist=(C C C)
+flaglist=(C C C C)
 
 # Style for the cdm dialog, which is printed with dialog(1).
 # Default to unset, causing dialog(1) to use the system wide default.
@@ -42,7 +44,7 @@ flaglist=(C C C)
 dialogrc=/usr/share/cdm/themes/blackandwhite
 
 # Index of the first item in the menu.
-countfrom=0
+countfrom=1
 
 # Set default display.
 display=0
