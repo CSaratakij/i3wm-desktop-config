@@ -23,6 +23,7 @@ alias tmka="tmux kill-server"
 alias web="lynx -accept_all_cookies -number_fields -scrollbar -scrollbar_arrow -vikeys https://duckduckgo.com"
 alias clock="tty-clock -tcC 7"
 alias night="redshift -m drm -l 13.9706:100.6457 -t 5200:4000 -g 0.8 -v"
+alias vlock="vlock --all"
 alias vi=vim
 alias v=vim
 
